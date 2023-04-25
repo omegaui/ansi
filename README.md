@@ -7,15 +7,15 @@ ANSI color and attribute utility module for V Lang.
 
 # Install
 ```shell
-v install ansi
+v install omegaui.ansi
 ```
 
 # Example Usage
 ```vlang
 module main
 
-import display
-import codes
+import omegaui.ansi.display
+import omegaui.ansi.codes
 
 // main demonstrating the basic usage
 // for more, see codes and functions available in [codes] and [text] module
