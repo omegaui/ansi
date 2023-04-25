@@ -1,17 +1,3 @@
-<div align="center">
-    <img src="https://img.icons8.com/arcade/480/null/code.png"/>
-</div>
-
-# ansi
-ANSI color and attribute utility module for V Lang.
-
-# Install
-```shell
-v install ansi
-```
-
-# Example Usage
-```vlang
 module main
 
 import display
@@ -25,5 +11,3 @@ fn main() {
 	print(' cool ')
 	display.println(text: 'Right?', fg: codes.bright_white, style: codes.dim)
 }
-
-```
