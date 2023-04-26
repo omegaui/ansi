@@ -5,8 +5,8 @@ import codes
 // AnsiText holds the [text], its foreground [fg] and background [bg] color also the [style] attribute.
 // Note that [text] parameter is a required parameter.
 pub struct AnsiText {
-	text string [required]
 mut:
+	text  string [required]
 	fg    int = codes.default_color
 	bg    int = codes.default_color + 10
 	style int

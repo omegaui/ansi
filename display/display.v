@@ -13,3 +13,9 @@ pub fn print(ansi_text text.AnsiText) {
 pub fn println(ansi_text text.AnsiText) {
 	ansi_text.println()
 }
+
+// blend use to blend multiple property together
+// example call: display.println(text: display.blend(text: "hello", style: codes.italic), style: codes.bold)
+pub fn blend(ansi_text text.AnsiText) string {
+	return text.encode(ansi_text)
+}
